@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.text {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.text h1 {
+    width: 80%;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text p {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.textform {
+    width: 50%;
+}
+
+.textform h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.textform .formbackground {
+    background-color: #333;
+    width: 100%;
+    height: 75%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.textform .formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.textform .formulario p {
+    margin-top: 5%;
+    flex: 1;
+}
+
+.textform .formulario input {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #555;
+    outline: none;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5%;
+    background-color: #555;
+}
+
+.formbackground button {
+    width: 30%;
+    font-weight: 700;
+    padding: 20px 5px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    transform: translateX(218%);
+}
+

@@ -1,0 +1,51 @@
+.banner {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -100px;
+    position: relative;
+}
+
+.banner .list .item {
+    position: absolute;
+    inset: 0 0 0 0;
+}
+
+.banner .list .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .list .item .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    color: #FFF;
+    text-shadow: 0 5px 10px #0004;
+}
+
+.banner .list .item .content .text h1 {
+    font-size: 3em;
+    font: 700;
+}
+
+.banner .list .item .content .text h2 {
+    font-size: 1em;
+}
+
+.banner .list .item .content button {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: 50px;
+    padding: 25px 50px;
+}

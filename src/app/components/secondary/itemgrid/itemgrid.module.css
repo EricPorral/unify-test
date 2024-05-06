@@ -1,0 +1,34 @@
+.itemgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    border-radius: 40px;
+    margin: 5%;
+}
+
+.test {
+    background-color: #111;
+    border-radius: 40px;
+    text-align: center;
+}
+.text {
+ padding: 30px
+}
+
+.text h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.itemgrid img {
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    object-fit: cover;
+}
