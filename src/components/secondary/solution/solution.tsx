@@ -10,7 +10,7 @@ export const Solution = () => {
             </div>
             <Itemgrid/>
             <div className={s.button}>
-                <Button />
+            <Button />
             </div>
         </div>
     )

@@ -9,11 +9,11 @@ export const Footer = () => {
                     <img src="unify.svg" alt=""/>
                 </div>
                 <div className={s.nav}>
-                    <Link href="" className={s.link}>Sobre Nós</Link>
+                    <Link href="/sobre" className={s.link}>Sobre Nós</Link>
                     <Link href="" className={s.link}>Projetos de engenharia</Link>
                     <Link href="" className={s.link}>Monitoramento e controle</Link>
                     <Link href="" className={s.link}>Projetos</Link>
-                    <Link href="" className={s.link}>Contato</Link>
+                    <Link href="/contato" className={s.link}>Contato</Link>
                 </div>
                 <div></div>
                 <div className={s.social}>

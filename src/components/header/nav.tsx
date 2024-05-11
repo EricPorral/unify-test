@@ -8,10 +8,10 @@ export const Nav = () => {
                 <img src="/unify.svg" alt=""/>
             </div>
             <div>
-                <Link href="" className={s.link}>Sobre Nós</Link>
+                <Link href="/sobre" className={s.link}>Sobre Nós</Link>
                 <Link href="" className={s.link}>Soluções</Link>
                 <Link href="" className={s.link}>Projetos</Link>
-                <Link href="" className={s.link}>Contato</Link>
+                <Link href="/contato" className={s.link}>Contato</Link>
             </div>
             <div className={s.svg}>
                 <div className={s.svgimage}>

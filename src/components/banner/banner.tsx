@@ -1,3 +1,4 @@
+import { Button } from '../secondary/button/button';
 import s from './banner.module.css';
 
 export const Banner = () => {
@@ -11,9 +12,7 @@ export const Banner = () => {
                             <h1>Soluções IoT, Automação e Conectividade</h1>
                             <h2>Revolucione a forma como você monitora, controla e otimiza os recursos críticos do seu negócio</h2>
                         </div>
-                        <div className={s.button}>
-                            <button>SAIBA MAIS</button>
-                        </div>
+                        <Button />
                     </div>
                 </div>
             </div>
