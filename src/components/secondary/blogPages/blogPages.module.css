@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.container img {
+    width: 15px;
+    height: 15px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.boxnumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 5px;
+    margin-left: 10px;
+}

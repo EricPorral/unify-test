@@ -1,16 +1,24 @@
 import { Nav } from '@/components/header/nav';
-import s from './page.module.css';
-import { Bg } from '@/components/background/background';
-import { Background } from '@/helpers/list';
 import { Footer } from '@/components/foooter/footer';
+import { BgBlog } from '@/components/backgroundBlog/backgroundBlog';
+import { BlogGridItem } from '@/components/secondary/blogGrid/blogGrid';
+import { BlogPages } from '@/components/secondary/blogPages/blogPages';
+
+import s from './page.module.css';
+import { Newsletter } from '@/components/secondary/newsletter/newsletter';
 
 const Page = () => {
   return (
     <div className={s.page}>
         <section className={s.header}>
-            <Nav />
+          <Nav />
         </section>
-        <Bg title={Background[1].title} desc={Background[1].desc} />
+        <BgBlog />
+        <section>
+          <BlogGridItem />
+          <BlogPages />
+        </section>
+        <Newsletter />
         <Footer />
     </div>
   )

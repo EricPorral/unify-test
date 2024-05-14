@@ -1,5 +1,6 @@
 import { aboutType } from "@/types/aboutType";
 import { backgroundType } from "@/types/backgroundType";
+import { BlogType } from "@/types/blogType";
 import { CheckType } from "@/types/checkType";
 import { gridType } from "@/types/infoItemType";
 
@@ -77,4 +78,44 @@ export const About: aboutType[] = [
         title: 'Valores',
         desc: 'Comunicação e adaptabilidade ao cliente; trabalho em equipe; prazos e metas ágeis; consumo inteligente e sustentável.'
     }
+]
+
+export const BlogGrid: BlogType[] = [
+    {
+        key: 1,
+        image: '/blog-item1.jpg',
+        title: 'Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
+    },
+    {
+        key: 2,
+        image: '/blog-item2.jpg',
+        title: 'Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
+    },
+    {
+        key: 3,
+        image: '/blog-item3.jpg',
+        title: 'Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
+    },
+    {
+        key: 4,
+        image: '/blog-item4.jpg',
+        title: 'Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
+    },
+    {
+        key: 5,
+        image: '/blog-item5.jpg',
+        title: 'Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
+    },
+    {
+        key: 6,
+        image: '/blog-item6.jpg',
+        title: 'Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
+    }
+
 ]

@@ -1,9 +1,10 @@
 .check {
     display: flex;
+    align-items: center;
     margin-top: 5%;
 }
 
-.check img{
+.check img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
