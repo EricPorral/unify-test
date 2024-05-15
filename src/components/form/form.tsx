@@ -20,9 +20,10 @@ export const Form = () => {
                 <div className={s.formbackground}>
                     <div className={s.formarea}>
                         <form className={s.formulario}>
-                            <p>Nome Completo*</p>
+                            <label>Nome Completo*</label>
                             <input 
                                 type='text'
+                                name='nome'
                                 placeholder='Preencha com seu nome completo'
                             />
                         </form>
@@ -30,6 +31,7 @@ export const Form = () => {
                             <p>E-mail corporativo*</p>
                             <input 
                                 type='email'
+                                name='email'
                                 placeholder='email@empresa.com'
                             />
                         </form>
@@ -37,6 +39,7 @@ export const Form = () => {
                             <p>Telefone*</p>
                             <input 
                                 type='number'
+                                name='number'
                                 placeholder='(XX) XXXXX-XXXX'
                             />
                         </form>
@@ -44,6 +47,7 @@ export const Form = () => {
                             <p>Estado*</p>
                             <input 
                                 type='text'
+                                name='estado'
                                 placeholder='Selecione o seu estado'
                             />
                         </form>
@@ -51,6 +55,7 @@ export const Form = () => {
                             <p>Cidade*</p>
                             <input 
                                 type='text'
+                                name='cidade'
                                 placeholder='Preencha com a sua cidade'
                             />
                         </form>
@@ -58,6 +63,7 @@ export const Form = () => {
                             <p>Segmento*</p>
                             <input 
                                 type='text'
+                                name='segmento'
                                 placeholder='Preencha com o seu segmento de atuação'
                             />
                         </form>
@@ -65,6 +71,7 @@ export const Form = () => {
                             <p>Empresa*</p>
                             <input 
                                 type='text'
+                                name='empresa'
                                 placeholder='Preencha com o nome da sua empresa'
                             />
                         </form>

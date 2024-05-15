@@ -1,0 +1,32 @@
+.bgarea {
+    width: 100%;
+    height: 100vh;
+}
+
+.bgimage {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+    background-image: url('/banner-projeto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.bgtext h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.bgtext p {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 60px;
+}

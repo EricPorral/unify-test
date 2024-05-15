@@ -1,4 +1,3 @@
-import { CheckType } from '@/types/checkType';
 import s from './check.module.css';
 import { Checkphrases } from '@/helpers/list';
 

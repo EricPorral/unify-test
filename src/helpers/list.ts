@@ -1,8 +1,10 @@
 import { aboutType } from "@/types/aboutType";
 import { backgroundType } from "@/types/backgroundType";
+import { BenefitType } from "@/types/benefitType";
 import { BlogType } from "@/types/blogType";
 import { CheckType } from "@/types/checkType";
 import { gridType } from "@/types/infoItemType";
+import { ProjectGridType } from "@/types/projectGridType";
 
 export const infogrid: gridType[] = [
     {
@@ -118,4 +120,53 @@ export const BlogGrid: BlogType[] = [
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis. Turpis nunc eget lorem dolor sed viverra ipsum. Cras pulvinar mattis nunc sed blandit libero. Vivamus at augue eget arcu dictum varius duis at consectetur. Ultrices in iaculis nunc sed augue lacus. Nulla facilisi etiam dignissim diam. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat id porta nibh venenatis cras sed felis eget. Facilisis magna etiam tempor orci eu lobortis. Lectus proin nibh nisl condimentum id venenatis a condimentum.'
     }
 
+]
+
+export const PgGrid: ProjectGridType[] = [
+    {
+        key: 1,
+        image: '/pggrid-notebook.svg',
+        title: 'Desenvolvimento do projeto',
+        phrase1: 'Análise detalhada da planta baixa do seu estabelecimento ou residência',
+        phrase2: 'identificação de áreas críticas e estratégicas para a implementação de sistemas de CFTV, cabeamento estruturado e sonorização.'
+    },
+    {
+        key: 2,
+        image: '/pggrid-magnifier.svg',
+        title: 'Localização e análise',
+        phrase1: 'Determinação das melhores posições para a instalação de câmeras de CFTV;',
+        phrase2: 'Análise da insfraestrutura existente para a implementação do cabeamento estruturado.'
+    },
+    {
+        key: 3,
+        image: '/pggrid-screen.svg',
+        title: 'Execução do projeto',
+        phrase1: 'Implementação eficiente e profissional do projeto desenvolvido;',
+        phrase2: 'Garantia de conformidade com as normas técnicas e regulamentações.'
+    },
+    {
+        key: 4,
+        image: '/pggrid-wrench.svg',
+        title: 'Instalação',
+        phrase1: 'Equipe especializada para a instalação de câmeras de CFTV, cabeamento estruturado e sistemas de sonorização;',
+        phrase2: 'Utilização de equipamentos de alta qualidade para garantir desempenho e durabilidade'
+    },
+    {
+        key: 5,
+        image: '/pggrid-magnifier.svg',
+        title: 'Configuração e treinamento',
+        phrase1: 'Configuração completa dos sistemas para garantir seu funcionamento ideal;',
+        phrase2: 'Treinamento personalizado para usuários finais, assegurando o máximo aproveitamento das soluções implantadas.'
+    }
+]
+
+export const BenefitPhrases: BenefitType[] = [
+    {
+        image: '/graph.png',
+        text: 'Projetos de automação e monitoramento com soluções IoT customizáveis ao seu negócio'
+    },
+    {
+        image: '/benefit-project.jpg',
+        text: 'Por que contar com a Unify para projetos de engenharia?'
+    }
 ]

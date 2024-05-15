@@ -1,0 +1,73 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #111;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.item h1 {
+    font-size: 36px;
+}
+
+.benefititem {
+    width: 90%;
+    margin: auto;
+    background-color: #333;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+.empreendimento {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+.empreendimento img {
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.empreendimento .empreedimentoimage {
+    display: flex;
+}
+
+.empreendimento .empreendimentoitem {
+    flex: 1
+}
+
+.form .line {
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    background-color: #FFF;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.form .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form .text p {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}

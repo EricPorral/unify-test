@@ -1,3 +1,4 @@
+import { BenefitPhrases } from '@/helpers/list';
 import { Benefits } from '../secondary/benefits/benefits';
 import { Scroll } from '../secondary/scroll/scroll';
 import { Solution } from '../secondary/solution/solution';
@@ -13,7 +14,7 @@ export const Info = () => {
                 <Solution />
             </section>
             <section>
-                <Benefits />
+            <Benefits image={BenefitPhrases[0].image} text={BenefitPhrases[0].text}/>
             </section>
         </div>
     )
