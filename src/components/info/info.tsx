@@ -14,7 +14,7 @@ export const Info = () => {
                 <Solution />
             </section>
             <section>
-            <Benefits image={BenefitPhrases[0].image} text={BenefitPhrases[0].text}/>
+                <Benefits image={BenefitPhrases[0].image} text={BenefitPhrases[0].text}/>
             </section>
         </div>
     )

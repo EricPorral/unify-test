@@ -20,7 +20,7 @@ export const Form = () => {
                 <div className={s.formbackground}>
                     <div className={s.formarea}>
                         <form className={s.formulario}>
-                            <label>Nome Completo*</label>
+                            <p>Nome Completo*</p>
                             <input 
                                 type='text'
                                 name='nome'

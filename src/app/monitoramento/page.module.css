@@ -1,0 +1,65 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #111;
+    padding: 10px;
+}
+
+.modalarea {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.modaltitle h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.modalitem {
+    display: flex;
+    align-items: center;
+}
+
+.modalitem img {
+    width: 50px;
+    height: 50px;
+}
+
+.modalitem .modalcard {
+    margin-left: 30px;
+}
+
+.solution {
+    margin-bottom: 60px;
+}
+
+.benefit {
+    margin-bottom: 120px;
+}
+
+.form .line {
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    background-color: #FFF;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.form .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form .text p {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}

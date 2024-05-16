@@ -4,6 +4,7 @@ import { BenefitType } from "@/types/benefitType";
 import { BlogType } from "@/types/blogType";
 import { CheckType } from "@/types/checkType";
 import { gridType } from "@/types/infoItemType";
+import { ModalType } from "@/types/modalType";
 import { ProjectGridType } from "@/types/projectGridType";
 
 export const infogrid: gridType[] = [
@@ -58,6 +59,10 @@ export const Background: backgroundType[] = [
     {
         title: 'BLOG',
         desc: 'Acompanhe os nossos conteúdos sobre engenharia, gestão e inovação!'
+    },
+    {
+        title: 'Monitore e automatize a gestão de energia e utilidades do seu negócio',
+        desc: 'Uma solução conjunta de hardware e software com monitoramento de dados em tempo real sobre consumo, produção, geração e integridade de sistemas e ativos do seu negócio.'
     }
 ]
 
@@ -168,5 +173,36 @@ export const BenefitPhrases: BenefitType[] = [
     {
         image: '/benefit-project.jpg',
         text: 'Por que contar com a Unify para projetos de engenharia?'
+    },
+    {
+        image: '/benefit-monitoramento.jpg',
+        text: 'Conte com o Unify Plus para monitorar o seu negócio'
+    }
+]
+
+export const Modal: ModalType[] = [
+    {
+        color: '#0041C2',
+        image: '/water-drop.svg',
+        title: 'Monitore e identifique o perfil de consumo de energia dos seus setores e unidades',
+        desc1: 'acompanhe o total de energia consumida por unidade, calculado com base no consumo em tempo real;',
+        desc2: 'Tenha acesso a gráficos discretizados por hora e acompanhe as demandas de consumo por unidade;',
+        desc3: 'Identifique o perfil de consumo de cada unidade através da análise de fator de potência e consumo ativo vs. consumo reativo.'
+    },
+    {
+        color: '#477744',
+        image: '/electricity.svg',
+        title: 'Monitore e identifique o perfil de consumo de energia dos seus setores e unidades',
+        desc1: 'acompanhe o total de energia consumida por unidade, calculado com base no consumo em tempo real;',
+        desc2: 'Tenha acesso a gráficos discretizados por hora e acompanhe as demandas de consumo por unidade;',
+        desc3: 'Identifique o perfil de consumo de cada unidade através da análise de fator de potência e consumo ativo vs. consumo reativo.'
+    },
+    {
+        color: '#FFBF00',
+        image: '/plug.svg',
+        title: 'Monitore e identifique o perfil de consumo de energia dos seus setores e unidades',
+        desc1: 'acompanhe o total de energia consumida por unidade, calculado com base no consumo em tempo real;',
+        desc2: 'Tenha acesso a gráficos discretizados por hora e acompanhe as demandas de consumo por unidade;',
+        desc3: 'Identifique o perfil de consumo de cada unidade através da análise de fator de potência e consumo ativo vs. consumo reativo.'
     }
 ]
