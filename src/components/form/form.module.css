@@ -99,8 +99,23 @@
         width: 100%;
         margin-top: 10%;
     }
+    .textform .formulario {
+        flex-direction: column;
+    }
     .textform .formulario p {
-        font-size: 12px;
+        font-size: 16px;
+    }
+    .textform .formulario input {
+        width: 100%;
+    }
+    .formbackground .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formbackground button {
+        width: 90%;
+        transform: translateX(0);
     }
 }
 

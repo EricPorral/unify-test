@@ -75,7 +75,9 @@ export const Form = () => {
                                 placeholder='Preencha com o nome da sua empresa'
                             />
                         </form>
-                        <button>ENVIAR</button>
+                        <div className={s.button}>
+                            <button>ENVIAR</button>
+                        </div>
                     </div>
                 </div>
             </div>

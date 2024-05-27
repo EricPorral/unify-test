@@ -63,3 +63,9 @@
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
+@media (max-width: 800px) {
+    .modalitem .modalcard {
+        display: none;
+    }
+}

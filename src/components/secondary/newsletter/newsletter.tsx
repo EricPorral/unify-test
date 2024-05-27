@@ -5,7 +5,7 @@ export const Newsletter = () => {
         <div className={s.container}>
             <div className={s.text}>
                 <h1>Assine a nossa newsletter</h1>
-                <p>Assine agoraa newsletter da Unify e mantenha-se atualizado com conteúdos exclusivos sobre engenharia, gestão, tecnologia e inovação. Esteja à frente do seu tempo e aproveite os melhores insights para impulsionar o seu negócio</p>
+                <p>Assine agora a newsletter da Unify e mantenha-se atualizado com conteúdos exclusivos sobre engenharia, gestão, tecnologia e inovação. Esteja à frente do seu tempo e aproveite os melhores insights para impulsionar o seu negócio</p>
             </div>
             <div className={s.form}>
                 <div className={s.flex}>
