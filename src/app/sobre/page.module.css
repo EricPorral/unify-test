@@ -46,3 +46,10 @@
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
+@media (max-width: 800px) {
+    .button button {
+        padding: 15px 25px;
+        margin-top: 15px;
+    }
+}

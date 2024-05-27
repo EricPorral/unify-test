@@ -35,3 +35,21 @@
 .bgtext .button {
     margin-bottom: 30px;
 }
+
+@media (max-width: 800px) {
+    .bgtext h1 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .bgtext h2 {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .bgtext .button {
+        margin-top: 15px;
+    }
+}

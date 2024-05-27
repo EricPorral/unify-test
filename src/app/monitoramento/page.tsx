@@ -24,7 +24,7 @@ const Page = () => {
                     <div className={s.leftarrow}>
                         <img src="arrow-left.svg"/>
                     </div>
-                    <div style={{ marginLeft: '60px'}}>
+                    <div style={{ marginLeft: '60px'}} className={s.mobilecard}>
                         <MonitoramentoModal color={Modal[0].color} image={Modal[0].image} title={Modal[0].title} desc1={Modal[0].desc1} desc2={Modal[0].desc2} desc3={Modal[0].desc3} />
                     </div>
                     <div className={s.modalcard}>

@@ -68,4 +68,17 @@
     .modalitem .modalcard {
         display: none;
     }
+    .modalitem img {
+        width: 20px;
+        height: 20px;
+    }
+    .modalitem .mobilecard {
+        margin-left: 0 !important;
+    }
+    .modalitem .leftarrow {
+        margin-right: 5px !important;
+    }
+    .modalitem .rightarrow {
+        margin-left: 5px !important;
+    }
 }
