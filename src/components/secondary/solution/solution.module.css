@@ -19,3 +19,13 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 800px) {
+    .solution {
+        width: 85%;
+    }
+
+    .solution .text {
+        font-size: 22px;
+    }
+}
+

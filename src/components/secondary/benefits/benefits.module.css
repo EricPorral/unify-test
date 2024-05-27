@@ -38,3 +38,26 @@
     margin-bottom: 40px;
     background-color: #FFF;
 }
+
+@media (max-width: 800px) {
+    .benefits {
+        flex-direction: column;
+    }
+    .image img {
+        width: 100%;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .text h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .button {
+        margin: auto;
+        margin-block-start: 30px;
+        margin-block-end: 30px;
+    }
+}

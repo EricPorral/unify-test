@@ -29,12 +29,12 @@
     text-shadow: 0 5px 10px #0004;
 }
 
-.banner .list .item .content .text h1 {
+.text h1 {
     font-size: 3em;
     font: 700;
 }
 
-.banner .list .item .content .text h2 {
+.text h2 {
     font-size: 1em;
 }
 
@@ -48,4 +48,32 @@
     font-size: 1em;
     margin-top: 50px;
     padding: 25px 50px;
+}
+
+@media (max-width: 768px) {
+    .banner .list .item .content {
+        width: 100%;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 18px;
+        font: 700;
+        width: 50%;
+    }
+    
+    .text h2 {
+        font-size: 12px;
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .banner .list .item .content button {
+        padding: 15px 25px;
+    }
 }
